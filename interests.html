@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> 
+		Interests
+		</title>
+				<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>	
+	<body>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Blog</a>
+    </div><button class="navbar-toggle" data-toggle="collapse" data-target=".navCollapse">+</button>
+	<div class="collapse navbar-collapse navCollapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="interests.html">Interests</a></li> 
+	  <li><a href="myself.html">Myself</a></li>
+      <li><a href="contact.html">Contact</a></li> 
+    </ul>
+  </div>
+</nav>
+<br/>
+<br/>
+<br/>
+	<div class="row" id=interests>
+	</br>
+	</br>
+				<h1> Interests
+				</h1>
+			</div>
+	<div class="row">
+				<h2> This is my interests page, here you will find some of the things I am passionate about and am enjoy at the moment.
+				</h2>
+			</div>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+	<div class="row"> 
+				<div class="col-md-4 col-sm-12">
+					<a href="http://www.kubs.ie/">
+						<img class="interestsImgs"  src="kubs.jpeg"> </img>
+					</a>
+				</div>
+				<div class="col-md-8 col-sm-12"> <h2>For the majority of my life i have played basketball with KUBS. I am not currently playing with them this year but i hope to continue playing with them next year. At U18s level, we worked extremely hard after years of coach switching to achieve a great result in both the cup and league, winning them both againts the same main contendants. Click the image to go to the website!</h2></div>
+			</div>	
+	<div class="row"> 
+				<div class="col-md-4 col-sm-12">
+					<a href="http://www.hangardublin.ie/">
+						<img class="interestsImgs"  src="hangar.jpeg"> </img>
+					</a>
+				</div>
+				<div class="col-md-8 col-sm-12"> <h2>Being a teenager in Dublin, one of my many pastimes is consuming cheap alcohol in nightclubs. My personal favorite choice of venue on any given night would have to be Hangar in temple bar, where you can find the Techno and Cans crew providing the best techno with cheap cans all night. Click the image to go to their website!</h2></div>
+			</div>	
+			<br>
+			<br>
+	<div class="row"> 
+				<div class="col-md-4 col-sm-12">
+					<a href="https://www.youtube.com/playlist?list=PLtW8_S-_3hagHLXhU1im9YYZlQJySIu8R">
+						<img class="interestsImgs"  src="youtube.jpeg"> </img>
+					</a>
+				</div>
+				<div class="col-md-8 col-sm-12"> <h2>Music is a huge part of my life, if im walking anywhere, doing work or just relaxing im always listening to music. I have a wide rage of music tastes varying from techno to heavy metal, theres not a lot I couldnt listen to. Click the image to see my playlist.</h2></div>
+			</div>				
+		
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script> $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+			</script>	
+	</body>
+<html>

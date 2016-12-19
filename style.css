@@ -1,0 +1,78 @@
+.row{text-align:center;}
+img{Width:200px;
+	height:200px;}
+	
+h1{ font-size:50px;
+		color:black;
+		text-align:center;
+		text-decoration:underline;
+	}
+body{
+	background-image: url("background.jpg");;
+}
+h2{
+	color:black;
+	font-size:35px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    margin-left: 20px;
+	padding: 30px 50px;
+	
+}
+	}
+h3{
+	color:black;
+	font-size:35px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    margin-left: 20px;
+	padding: 30px 50px;
+	border-style:dotted;
+}	
+input {
+    width: 50%;
+}
+
+.button {
+    background-color:#008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.interestsImgs{
+	width:400px;
+	height:400px;
+}
+
+.myself {
+	width:400px;
+	height:400px;
+	
+}
+.me2 {
+	width:600px;
+	height:400px;
+	
+}
+
+.form-inline{
+	font-size:40px;
+}
+
+#submit { background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+	
+}
+
+form{text-align:center;}
